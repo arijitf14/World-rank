@@ -1,0 +1,6 @@
+.counts {
+    text-align: center;
+    margin: auto;
+    padding: 14px;
+    color: var(--text-color-secondary);
+}
