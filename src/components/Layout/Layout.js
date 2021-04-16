@@ -2,6 +2,7 @@ import { Brightness6Rounded } from "@material-ui/icons";
 import Head from "next/head";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import Footer from "../Footer/Footer";
 import styles from "./Layout.module.css";
 
 const Layout = ({ children, title = "World Ranks" }) => {
@@ -70,7 +71,7 @@ const Layout = ({ children, title = "World Ranks" }) => {
 
       <main className={styles.main}>{children}</main>
 
-      <footer className={styles.footer}>IndusNet Technologies</footer>
+      <Footer />
     </div>
   );
 };
